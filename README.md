@@ -16,12 +16,12 @@ The Source files for this project can be found by navigating to:
 Recipes/task/src/recipes
 
 As far as layered architecture is implemented for this project, the directory contains several packages:
-- businesslayer - contains entities' models, services for working with repositories
-- persistancelayer - contains repositories' interfaces
-- presentationlayer - contains REST controllers and controller exception handler
-- securitylevel - contains WebSecurityConfigurer class, UserDetails and UserDetailsService implementations
+- ```businesslayer``` - contains entities' models, services for working with repositories
+- ```persistancelayer``` - contains repositories' interfaces
+- ```presentationlayer``` - contains REST controllers and controller exception handler
+- ```securitylevel``` - contains WebSecurityConfigurer class, UserDetails and UserDetailsService implementations
 
-RecipesApplication.java - This file contains the method that run the program.
+```RecipesApplication.java``` - This file contains the method that run the program.
 ## API 
 - ```POST /api/recipe/new``` receives a recipe as a JSON object and returns a JSON object with one id field;  
 
