@@ -25,7 +25,7 @@ As far as layered architecture is implemented for this project, the directory co
 ## API 
 - ```POST /api/recipe/new``` receives a recipe as a JSON object and returns a JSON object with one id field;  
 
-  The service should accept only valid recipes – all fields are obligatory, name and description shouldn't be blank, and JSON arrays should contain at least one item.
+  The service accept only valid recipes – all fields are obligatory, name and description shouldn't be blank, and JSON arrays should contain at least one item.
 - ```GET /api/recipe/{id}``` returns a recipe with a specified id as a JSON object;
 - ```DELETE /api/recipe/{id}``` deletes a recipe with a specified id
 - ```PUT /api/recipe/{id}``` receives a recipe as a JSON object and updates a recipe with a specified id
