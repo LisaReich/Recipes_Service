@@ -39,7 +39,10 @@ As far as layered architecture is implemented for this project, the directory co
   Both fields are required and must be valid: email should contain @ and . symbols, password should contain at least 8 characters and shouldn't be blank.  
 ## Usage
 **Example 1**    
-- ```POST /api/register```  
+- ```POST /api/register``` 
+
+Request body:
+
 ```
 {
    "email": "Cook_Programmer@somewhere.com",
@@ -49,6 +52,9 @@ As far as layered architecture is implemented for this project, the directory co
 Status code: ```200 (Ok)```  
   
 - ```POST /api/recipe/new```
+
+Request body:
+
 ```
 {  
     "name": "Mint Tea",  
@@ -65,6 +71,9 @@ Response:
 }
 ```
 - ```PUT /api/recipe/1``` request with basic authentication; email (login): Cook_Programmer@somewhere.com, password: RecipeInBinary
+
+Request body:
+
 ```
 {  
     "name": "Mint Tea",  
@@ -95,6 +104,9 @@ Status code: ```204 (No Content)```
   
 **Example 2**    
 A database with several recipes    
+
+Request body:
+
 ```
 {  
    "name": "Iced Tea Without Sugar",  
