@@ -22,11 +22,10 @@ As far as layered architecture is implemented for this project, the directory co
 - ```securitylevel``` - contains WebSecurityConfigurer class, UserDetails and UserDetailsService implementations
 
 To run the service from CMD:
-
-    1. Open CMD and go to .\Recipes_Service
-    2. Launch gradle (the wrapper is already included in the project package): .\Recipes_Service gradlew run
-    3. Server.port is 8881
-    4. In order to test the service please use Postman REST Client (you may download it from the official: https://www.postman.com/downloads/)
+   1. Open CMD and go to .\Recipes_Service
+   2. Launch gradle (the wrapper is already included in the project package): .\Recipes_Service gradlew run
+   3. Server.port is 8881
+   4. In order to test the service please use Postman REST Client (you may download it from the official: https://www.postman.com/downloads/) 
 ## API 
 - ```POST /api/recipe/new``` receives a recipe as a JSON object and returns a JSON object with one id field;  
 
