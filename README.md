@@ -8,7 +8,7 @@ Recipes Service is a multi-user web service that allows storing, retrieving, upd
 - Users can update or delete only their recipes
 - Users may search recipes by name or category
 ## Dependencies
-- Spring Data JPA  
+- Spring Data 
 - Spring Security  
 - Spring MVC  
 ## Running the project
